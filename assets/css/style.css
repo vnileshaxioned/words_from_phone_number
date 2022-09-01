@@ -156,6 +156,8 @@ li {
   background-color: #000;
   color: #fff;
 }
+
+.error { color: rgb(255, 0, 0); }
 /*=================================
   main styling ends here
 =================================*/
