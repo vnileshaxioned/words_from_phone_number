@@ -104,51 +104,63 @@ li {
   margin: 0 auto;
 }
 /*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
-/*=================================
   main styling starts here
 =================================*/
+.heading {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
 
+.input-container {
+  width: 50%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
 
+.input-field {
+  width: 96%;
+  padding: 10px;
+}
 
+.user-submit { margin: 14px 0; }
 
+.submit-cta {
+  padding: 10px 10%;
+  background-color: #000;
+  color: #fff;
+  transition: all .3s ease;
+}
 
+.output-heading {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
 
+.output {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.output-list { margin: 0 1% 10px 0; }
 
+.output-content {
+  padding: 10px;
+  display: block;
+  background-color: #000;
+  color: #fff;
+}
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
+@media only screen and (min-width: 995px) {
+  .submit-cta:hover { background-color: rgb(105, 105, 105); }
 }  
